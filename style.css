@@ -1,9 +1,11 @@
 *{
     margin:0;
+    
 }
 
 body{
     height: 2000px;
+    background-color: white;
 }
 
 .container{
@@ -14,10 +16,11 @@ body{
 
 .body-container{
     display: flex;
+    height:42.4rem;
 }
 
 .sidebar{
-    background-color: white;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +37,8 @@ body{
 }
 .side-logos{
     cursor: pointer;
-    width: 3rem;
+    width: 2rem;
+    margin-bottom: 1rem;
     align-items: center;
     justify-content: center;
 }
@@ -53,15 +57,14 @@ body{
 }
 .intro-text{
     color: black;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 1;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    margin-top: 1rem;
 }
 .name-text{
-    color: rgb(3, 3, 128);
-    font-size: 4rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    color: rgb(26, 167, 207);
+    font-size: 3.5rem;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-weight: 700;
 }
@@ -80,4 +83,13 @@ body{
 .gif{
     width:50%;
     
+}
+.video-gif{
+    height: 100%;
+    width: 100%;
+}
+.video-container{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
